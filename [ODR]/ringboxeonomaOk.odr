@@ -1,0 +1,52 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler ringboxeonomaOk\base.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler ringboxeonomaOk\vermelho.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler ringboxeonomaOk\verde.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler ringboxeonomaOk\Sans_titre-1.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 110.0
+		{
+			ringboxeonomaOk\RingPoteaux.mesh 0
+			ringboxeonomaOk\RingAttachPoteaux.mesh 0
+			ringboxeonomaOk\RingAttachPoteauxFix.mesh 0
+			ringboxeonomaOk\RingCordage.mesh 0
+			ringboxeonomaOk\RingSol.mesh 0
+		}
+		Med 0.0
+		Low 0.0
+		Vlow 0.0
+		AABBMin -2.8406897 -2.8406897 -0.0010155
+		AABBMax 2.8406897 2.8406897 2.0206099
+		Radius 4.14256
+		Center 0.0000000 0.0000000 1.0097971
+	}
+	Light null
+	Bound ringboxeonomaOk\ringboxeonomaOk.bound
+	Joints null
+}
